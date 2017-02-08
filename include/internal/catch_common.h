@@ -25,8 +25,6 @@
 #include <stdexcept>
 #include <algorithm>
 
-#include "catch_compiler_capabilities.h"
-
 namespace Catch {
 
     struct IConfig;
