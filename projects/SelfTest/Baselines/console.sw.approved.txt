@@ -1033,18 +1033,6 @@ with expansion:
   "this string contains 'abc' as a substring" equals: "something else"
 
 -------------------------------------------------------------------------------
-Equals string matcher, with NULL
--------------------------------------------------------------------------------
-MiscTests.cpp:<line number>
-...............................................................................
-
-MiscTests.cpp:<line number>:
-PASSED:
-  REQUIRE_THAT( "", Equals(0) )
-with expansion:
-  "" equals: ""
-
--------------------------------------------------------------------------------
 Exception messages can be tested for
   exact match
 -------------------------------------------------------------------------------
@@ -9142,6 +9130,6 @@ MiscTests.cpp:<line number>:
 PASSED:
 
 ===============================================================================
-test cases: 159 | 114 passed | 43 failed |  2 failed as expected
-assertions: 930 | 832 passed | 80 failed | 18 failed as expected
+test cases: 158 | 113 passed | 43 failed |  2 failed as expected
+assertions: 929 | 831 passed | 80 failed | 18 failed as expected
 

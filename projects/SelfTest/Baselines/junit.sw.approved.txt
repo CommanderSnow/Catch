@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="<exe-name>" errors="13" failures="68" tests="931" hostname="tbd" time="{duration}" timestamp="{iso8601-timestamp}">
+  <testsuite name="<exe-name>" errors="13" failures="68" tests="930" hostname="tbd" time="{duration}" timestamp="{iso8601-timestamp}">
     <testcase classname="global" name="# A test name that starts with a #" time="{duration}"/>
     <testcase classname="global" name="#809" time="{duration}"/>
     <testcase classname="global" name="'Not' checks that should fail" time="{duration}">
@@ -166,7 +166,6 @@ ConditionTests.cpp:<line number>
 MiscTests.cpp:<line number>
       </failure>
     </testcase>
-    <testcase classname="global" name="Equals string matcher, with NULL" time="{duration}"/>
     <testcase classname="Exception messages can be tested for" name="exact match" time="{duration}"/>
     <testcase classname="Exception messages can be tested for" name="different case" time="{duration}"/>
     <testcase classname="Exception messages can be tested for" name="wildcarded" time="{duration}"/>
